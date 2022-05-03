@@ -19,7 +19,7 @@ jobs:
           submodules: true
       - uses: goto-bus-stop/setup-zig@v1
         with:
-          version: master
+          version: 0.10.0-dev.1927+cf20b97b7
 
       - run: zig version
       - run: zig env
